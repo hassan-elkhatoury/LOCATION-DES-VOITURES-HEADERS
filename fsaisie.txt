@@ -1,0 +1,6 @@
+Nom Complet			Address	Phone		Age	Cin			Email				Password
+-----------------------------------------------------------------------------------------------------
+hassan_elkhatoury	ensah	7676767676	21	hh3	hassan@gmail.com	hassan
+	hassan elkhatoury	5656565656	56	ghgh	hassan2004@gmail.com	hassan2004
+hassan_elkhatouryy	ghghghds	5656565656	45	er454545	hassan200425@gmail.com	hassan200425
+ikram_elberkaoui	ensah	8989898980	21	gh56657	ikram@gmail.com	ikram
