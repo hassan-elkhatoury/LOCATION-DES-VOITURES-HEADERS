@@ -9,6 +9,7 @@
 #include"connexion.h"
 #include "display_mod.h"
 #include "client.h"
+#include <time.h>>
  
  
 bool isValidEmail(const char *email) {
