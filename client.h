@@ -1,6 +1,6 @@
 #ifndef CLIENT_H
 #define CLIENT_H
-
+#include <stdbool.h>
 // Client structure definition
 typedef struct {
     char nom[100];
@@ -32,7 +32,7 @@ typedef struct Options {
  * @param email Pointer to the email string.
  * @return int Returns 1 if valid, otherwise 0.
  */
-int isValidEmail(const char *email);
+bool isValidEmail(const char *email);
 
 /**
  * @brief Gets the password input from the user.

@@ -45,8 +45,8 @@ void print_centered(const char *text) {
 
 void draw(int op, Options options) {
     system("cls"); 
-    char line[50];
-    sprintf(line, BOLD "%s\n", options.title);
+    char line[110];
+    snprintf(line, sizeof(line), BOLD "%s\n", options.title);
     print_centered(line);
     for (int i = 0; i < options.len; i++) { 
         sprintf(line, ITALIC "%s%s%s" RESET, op == i ? BLUE "[" : WHITE " ", options.ops[i], op == i ? BLUE "]" : WHITE " ");
